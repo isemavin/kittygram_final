@@ -174,4 +174,4 @@ jobs:
           Деплой успешно выполнен!
           Деплой выполнил ${{ github.actor }}
           Сообщение коммита ${{ github.event.commits[0].message }}
-
+          https://github.com/${{ github.repository }}/commit/${{github.sha}}
